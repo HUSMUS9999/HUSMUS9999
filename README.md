@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/pixel-banner-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/pixel-banner-light.svg" />
-    <img src="assets/pixel-banner-dark.svg" alt="Houssem Eddine Benazzi — Cybersecurity Engineer" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pixel-banner-dark-v2.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/pixel-banner-light-v2.svg" />
+    <img src="assets/pixel-banner-dark-v2.svg" alt="Houssem Eddine Benazzi — Cybersecurity Engineer" width="100%" />
   </picture>
 </p>
 
@@ -10,9 +10,9 @@ Cybersecurity Engineer focused on **application security, penetration testing, A
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/pixel-loadout-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/pixel-loadout-light.svg" />
-    <img src="assets/pixel-loadout-dark.svg" alt="Operator Loadout — Core Focus Areas" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/pixel-loadout-dark-v2.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/pixel-loadout-light-v2.svg" />
+    <img src="assets/pixel-loadout-dark-v2.svg" alt="Operator Loadout — Core Focus Areas" width="100%" />
   </picture>
 </p>
 
