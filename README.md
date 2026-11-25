@@ -40,7 +40,7 @@ pub const HUSMUS9999: Profile<'static> = Profile {
     ctf_team: "Temperature0 — #14 Global CTFtime Peak",
     languages: &[
         "Python", "C", "C++", "Go", "Rust",
-        "JavaScript", "SQL", "Bash", "PowerShell",
+        "JavaScript", "TypeScript", "SQL", "Bash", "PowerShell",
     ],
     open_source: &["vibe-slayer", "proxysnare", "veilbreak", "crushgrid"],
 };
@@ -53,9 +53,7 @@ pub const HUSMUS9999: Profile<'static> = Profile {
 ### Skills & Focus Areas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,c,cpp,rust,go,js,bash,powershell,linux&theme=dark&perline=9" alt="Languages & OS" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,aws,githubactions,jenkins,grafana,prometheus,git&theme=dark&perline=9" alt="Systems & Infrastructure" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=py,c,cpp,rust,go,js,ts,bash,powershell,linux,postgres,redis,docker,aws,circleci,grafana,prometheus,git&theme=dark&perline=9" alt="Languages, Systems & Infrastructure" />
 </p>
 
 <br />
