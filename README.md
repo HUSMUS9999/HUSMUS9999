@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cyber-hero-v4.svg" alt="Houssem Eddine Benazzi — Cybersecurity Engineer" width="100%" />
+  <img src="assets/cyber-hero-v5.svg" alt="Houssem Eddine Benazzi — Cybersecurity Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/prismatic-divider.svg" alt="" width="100%" />
+  <img src="assets/cryo-divider.svg" alt="" width="100%" />
 </p>
 
 ### `whoami.rs`
@@ -41,7 +41,7 @@ pub const HUSMUS9999: Profile<'static> = Profile {
 ```
 
 <p align="center">
-  <img src="assets/prismatic-divider.svg" alt="" width="100%" />
+  <img src="assets/cryo-divider.svg" alt="" width="100%" />
 </p>
 
 ### Skills & Focus Areas
@@ -65,7 +65,7 @@ pub const HUSMUS9999: Profile<'static> = Profile {
 | **Systems & DevSecOps** | Linux & Windows scripting · containerization · CI/CD security pipelines · high-performance backend & telemetry systems |
 
 <p align="center">
-  <img src="assets/prismatic-divider.svg" alt="" width="100%" />
+  <img src="assets/cryo-divider.svg" alt="" width="100%" />
 </p>
 
 ### Open-Source Projects
