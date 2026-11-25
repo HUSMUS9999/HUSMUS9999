@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/cyber-hero-v3.svg" alt="Houssem Eddine Benazzi — Cybersecurity Engineer" width="100%" />
+  <img src="assets/cyber-hero-v4.svg" alt="Houssem Eddine Benazzi — Cybersecurity Engineer" width="100%" />
 </p>
 
 <p align="center">
@@ -38,7 +38,10 @@ pub const HUSMUS9999: Profile<'static> = Profile {
         "AI / LLM Security & Security Automation",
     ],
     ctf_team: "Temperature0 — #14 Global CTFtime Peak",
-    languages: &["Python", "C", "C++", "Go", "Rust", "JavaScript", "SQL"],
+    languages: &[
+        "Python", "C", "C++", "Go", "Rust",
+        "JavaScript", "SQL", "Bash", "PowerShell",
+    ],
     open_source: &["vibe-slayer", "proxysnare", "veilbreak", "crushgrid"],
 };
 ```
@@ -50,9 +53,9 @@ pub const HUSMUS9999: Profile<'static> = Profile {
 ### Skills & Focus Areas
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,c,cpp,rust,go,js,bash,linux&theme=dark&perline=8" alt="Languages & OS" />
+  <img src="https://skillicons.dev/icons?i=py,c,cpp,rust,go,js,bash,powershell,linux&theme=dark&perline=9" alt="Languages & OS" />
   <br />
-  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,aws,githubactions,jenkins,grafana,prometheus&theme=dark&perline=8" alt="Systems & Infrastructure" />
+  <img src="https://skillicons.dev/icons?i=postgres,redis,docker,aws,githubactions,jenkins,grafana,prometheus,git&theme=dark&perline=9" alt="Systems & Infrastructure" />
 </p>
 
 <br />
@@ -61,9 +64,9 @@ pub const HUSMUS9999: Profile<'static> = Profile {
 |---|---|
 | **Application Security** | Web, API, and mobile security assessments · secure code review · threat modeling · vulnerability validation & remediation |
 | **Reverse Engineering** | Static & dynamic binary analysis · runtime instrumentation · deobfuscation · native & mobile hardening |
-| **Security Engineering** | Zero-dependency cryptographic asset/binary sealing · anti-replay & anti-stealth browser defenses · distributed systems |
+| **Security Engineering** | Cryptographic asset & binary sealing · anti-replay & anti-stealth browser defenses · distributed systems |
 | **AI & Automation** | LLM & agentic security · adversarial testing · guardrails · automated security research workflows |
-| **Systems & DevSecOps** | Linux hardening · containerization · CI/CD security pipelines · high-performance backend & telemetry systems |
+| **Systems & DevSecOps** | Linux & Windows scripting · containerization · CI/CD security pipelines · high-performance backend & telemetry systems |
 
 <p align="center">
   <img src="assets/prismatic-divider.svg" alt="" width="100%" />
@@ -87,9 +90,8 @@ pub const HUSMUS9999: Profile<'static> = Profile {
         <a href="https://github.com/HUSMUS9999/vibe-slayer"><strong>vibe-slayer</strong></a> &nbsp;·&nbsp; <code>Rust</code> · <code>C99</code>
         <br />
         <img src="https://img.shields.io/github/actions/workflow/status/HUSMUS9999/vibe-slayer/ci.yml?branch=main&style=flat-square&label=CI&color=16A34A&labelColor=060911" alt="CI" />
-        <img src="https://img.shields.io/badge/crates-0-0284C7?style=flat-square&labelColor=060911" alt="0 crates" />
       </p>
-      <p>Zero-crate cryptographic delivery (<code>AES-256-GCM</code> / <code>ECDH P-256</code> leases), static-PIE Intel CET Linux <code>ELF64</code> sealing, and headerless <code>ChaCha20-Poly1305</code> vaults.</p>
+      <p>Cryptographic delivery (<code>AES-256-GCM</code> / <code>ECDH P-256</code> leases), static-PIE Intel CET Linux <code>ELF64</code> sealing, and headerless <code>ChaCha20-Poly1305</code> vaults.</p>
     </td>
     <td width="50%" valign="top">
       <p align="center">
@@ -104,10 +106,9 @@ pub const HUSMUS9999: Profile<'static> = Profile {
       <p align="center">
         <a href="https://github.com/HUSMUS9999/proxysnare"><strong>proxysnare</strong></a> &nbsp;·&nbsp; <code>JS</code> · <code>Python</code>
         <br />
-        <img src="https://img.shields.io/badge/deps-0-0284C7?style=flat-square&labelColor=060911" alt="0 deps" />
         <img src="https://img.shields.io/badge/defense-HMAC--SHA256-00A8CC?style=flat-square&labelColor=060911" alt="HMAC-SHA256" />
       </p>
-      <p>Zero-dependency HTTP Repeater &amp; intercepting-proxy defense using non-extractable WebCrypto keys, single-use Proof-of-Freshness signatures, and rotating honey-canaries.</p>
+      <p>HTTP Repeater &amp; intercepting-proxy defense using non-extractable WebCrypto keys, single-use Proof-of-Freshness signatures, and rotating honey-canaries.</p>
     </td>
   </tr>
   <tr>
@@ -124,10 +125,9 @@ pub const HUSMUS9999: Profile<'static> = Profile {
       <p align="center">
         <a href="https://github.com/HUSMUS9999/veilbreak"><strong>veilbreak</strong></a> &nbsp;·&nbsp; <code>JS</code> · <code>Python</code>
         <br />
-        <img src="https://img.shields.io/badge/deps-0-0284C7?style=flat-square&labelColor=060911" alt="0 deps" />
         <img src="https://img.shields.io/badge/lab-17%2F17-DB2777?style=flat-square&labelColor=060911" alt="17/17 lab" />
       </p>
-      <p>Zero-dependency Chromium/Gecko browser integrity gate combining 14 cross-engine invariants, <code>iframe</code>/<code>Web Worker</code> coherence checks, pointer kinematics, and single-use server tickets.</p>
+      <p>Chromium/Gecko browser integrity gate combining 14 cross-engine invariants, <code>iframe</code>/<code>Web Worker</code> coherence checks, pointer kinematics, and single-use server tickets.</p>
     </td>
     <td width="50%" valign="top">
       <p align="center">
