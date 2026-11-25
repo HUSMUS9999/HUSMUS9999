@@ -61,7 +61,7 @@
 
     <!-- Subtle ELF64 hex telemetry watermark top-right -->
     <text x="936" y="34" text-anchor="end" class="mono" font-size="10.5" fill="#233752" letter-spacing="1.2">7F 45 4C 46 02 01 01 00 :: ELF64 / EM_X86_64</text>
-    <text x="936" y="290" text-anchor="end" class="mono" font-size="10" fill="#1F334C" letter-spacing="1.2">SEC.OPS :: ALGIERS.DZ :: TEMPERATURE0</text>
+    <text x="936" y="290" text-anchor="end" class="mono" font-size="10" fill="#1F334C" letter-spacing="1.2">SEC.OPS :: HUSMUS9999 :: TEMPERATURE0</text>
 
     <!-- Static prismatic circuit traces (kept cleanly outside x=320..916 text/pill safe zone) -->
     <g stroke-width="1.5" stroke-linecap="square" stroke-linejoin="miter" opacity="0.28">
@@ -117,10 +117,10 @@
 
     <!-- Three Crisp Telemetry Pills with centered labels cleanly aligned x=328..906 -->
     <rect x="328" y="198" width="174" height="32" rx="4" fill="#0B1626" stroke="#00F0FF" stroke-opacity="0.75" stroke-width="1.2"/>
-    <text x="415" y="218" text-anchor="middle" class="mono" font-size="10.8" font-weight="700" fill="#E2F8FF">2+ YOE · 200+ VULNS</text>
+    <text x="415" y="218" text-anchor="middle" class="mono" font-size="10.8" font-weight="700" fill="#E2F8FF">0-DEP SECURITY TOOLS</text>
 
     <rect x="512" y="198" width="218" height="32" rx="4" fill="#1C131A" stroke="#FF2A6D" stroke-opacity="0.8" stroke-width="1.2"/>
-    <text x="621" y="218" text-anchor="middle" class="mono" font-size="10.8" font-weight="700" fill="#FFE4EC">CTF #1 DZ · #14 GLOBAL</text>
+    <text x="621" y="218" text-anchor="middle" class="mono" font-size="10.8" font-weight="700" fill="#FFE4EC">TEMP0 · #14 GLOBAL PEAK</text>
 
     <rect x="740" y="198" width="166" height="32" rx="4" fill="#0D1D14" stroke="#39FF14" stroke-opacity="0.75" stroke-width="1.2"/>
     <text x="823" y="218" text-anchor="middle" class="mono" font-size="10.8" font-weight="700" fill="#E6FFE9">PY · C/C++ · GO · RUST</text>
