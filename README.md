@@ -3,15 +3,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/houssem-eddine-benazzi-586b5635a/">
-    <img src="https://img.shields.io/badge/LinkedIn-Profile-0B1626?style=for-the-badge&labelColor=060911" alt="LinkedIn" />
-  </a>
-  <a href="https://ctftime.org/team/419024/">
-    <img src="https://img.shields.io/badge/CTFtime-Temperature0%20%28%2314%20Global%20Peak%29-1C1018?style=for-the-badge&labelColor=060911" alt="CTFtime Temperature0" />
-  </a>
-  <a href="mailto:h.benazzi@protonmail.com">
-    <img src="https://img.shields.io/badge/ProtonMail-h.benazzi%40protonmail.com-0C1B14?style=for-the-badge&logo=protonmail&logoColor=39FF14&labelColor=060911" alt="ProtonMail" />
-  </a>
+  <a href="https://www.linkedin.com/in/houssem-eddine-benazzi-586b5635a/"><img src="https://img.shields.io/badge/LinkedIn-Profile-0B1626?style=flat-square&labelColor=060911" alt="LinkedIn" /></a>
+  <a href="https://ctftime.org/team/419024/"><img src="https://img.shields.io/badge/CTFtime-Temperature0%20%28%2314%20Peak%29-1C1018?style=flat-square&labelColor=060911" alt="CTFtime Temperature0" /></a>
+  <a href="mailto:h.benazzi@protonmail.com"><img src="https://img.shields.io/badge/ProtonMail-h.benazzi%40protonmail.com-0C1B14?style=flat-square&logo=protonmail&logoColor=39FF14&labelColor=060911" alt="ProtonMail" /></a>
 </p>
 
 <p align="center">
@@ -53,35 +47,11 @@ pub const HUSMUS9999: Profile<'static> = Profile {
 ### Skills & Focus Areas
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" title="Python" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" title="C" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" title="C++" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/rust/F74C00" alt="Rust" title="Rust" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="Go" title="Go" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" title="JavaScript" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" title="TypeScript" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" title="React" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/gnubash/4EAA25" alt="Bash" title="Bash" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/powershell/powershell-original.svg" alt="PowerShell" title="PowerShell" height="36" />
-  <br /><br />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" title="Linux" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" title="PostgreSQL" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg" alt="Redis" title="Redis" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" title="Docker" height="36" />&nbsp;&nbsp;&nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/aws-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="assets/aws-light.svg" />
-    <img src="assets/aws-dark.svg" alt="AWS" title="AWS" height="36" />
-  </picture>&nbsp;&nbsp;&nbsp;
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.simpleicons.org/circleci/E2E8F0" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.simpleicons.org/circleci/161616" />
-    <img src="https://cdn.simpleicons.org/circleci/E2E8F0" alt="CircleCI" title="CircleCI" height="36" />
-  </picture>&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" title="GitHub Actions" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/grafana/grafana-original.svg" alt="Grafana" title="Grafana" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prometheus/prometheus-original.svg" alt="Prometheus" title="Prometheus" height="36" />&nbsp;&nbsp;&nbsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" title="Git" height="36" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/skills-grid-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/skills-grid-light.svg" />
+    <img src="assets/skills-grid-dark.svg" alt="Python, C, C++, Rust, Go, JavaScript, TypeScript, React, Bash, PowerShell, Linux, PostgreSQL, Redis, Docker, AWS, CircleCI, GitHub Actions, Grafana, Prometheus, Git" width="100%" />
+  </picture>
 </p>
 
 <br />
