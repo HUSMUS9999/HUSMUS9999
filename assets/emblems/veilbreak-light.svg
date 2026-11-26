@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="492" height="270" viewBox="94 26 492 270" role="img" aria-label="VeilBreak — Universal Anti-Stealth and Browser Integrity Gate">
+  <defs>
+    <style>
+      .ink-heavy { fill: none; stroke: #132035; stroke-width: 2.08; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-med   { fill: none; stroke: #132035; stroke-width: 1.35; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fine  { fill: none; stroke: #334763; stroke-width: 0.9; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-hair  { fill: none; stroke: #64748B; stroke-width: 0.65; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill  { fill: #132035; stroke: none; }
+      .ink-mid-fill { fill: #334763; stroke: none; }
+      .ink-shade { fill: #132035; fill-opacity: 0.085; stroke: none; }
+      .accent-heavy { fill: none; stroke: #0284C7; stroke-width: 1.75; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-line  { fill: none; stroke: #0284C7; stroke-width: 1.35; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-fine  { fill: none; stroke: #0284C7; stroke-width: 0.85; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-fill  { fill: #0284C7; stroke: none; }
+    
+      @keyframes vbPulse {
+        0%, 100% { opacity: 0.68; }
+        50% { opacity: 1; }
+      }
+      @keyframes vbLineFlow {
+        0% { stroke-dashoffset: 52; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes vbShardDrift {
+        0%, 100% { transform: translate(0px, 0px); }
+        50% { transform: translate(2.6px, -2.2px); }
+      }
+      @keyframes vbReticlePulse {
+        0%, 100% { opacity: 0.72; }
+        50% { opacity: 1; }
+      }
+      .accent-line, .accent-heavy { stroke-dasharray: 26 6; animation: vbLineFlow 4.0s linear infinite, vbPulse 3.2s ease-in-out infinite; }
+      .accent-fine, .accent-fill { animation: vbPulse 2.8s ease-in-out infinite; }
+      #mask-shards { animation: vbShardDrift 4.4s ease-in-out infinite; }
+      #physics-reticle { animation: vbReticlePulse 3.4s ease-in-out infinite; }
+      #prism-accents { animation: vbPulse 2.6s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .accent-line, .accent-heavy, .accent-fine, .accent-fill, #mask-shards, #physics-reticle, #prism-accents { animation: none; stroke-dasharray: none; }
+      }
+    
+    </style>
+
+    <mask id="mask-bg">
+      <rect x="0" y="0" width="680" height="390" fill="white"/>
+      
+      <path d="M 347,64 C 318,62 291,73 276,94 C 264,111 261,134 265,158 C 269,184 281,210 300,231 C 311,243 323,250 334,251 L 339,224 L 329,200 L 342,175 L 332,148 L 345,116 L 337,91 Z" fill="black" stroke="black" stroke-width="2.2"/>
+      <path d="M 357,66 C 382,69 402,82 414,102 L 392,113 L 366,106 L 352,91 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 419,110 C 427,127 429,146 425,165 L 404,158 L 403,129 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 422,176 C 415,198 403,218 386,233 L 372,211 L 391,185 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 378,239 C 366,247 355,251 344,252 L 350,226 L 367,221 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 435,112 L 456,102 L 450,124 L 432,127 Z" fill="black" stroke="black" stroke-width="1.6"/>
+      <path d="M 434,167 L 458,160 L 448,181 L 430,179 Z" fill="black" stroke="black" stroke-width="1.6"/>
+      <circle cx="378.0" cy="143.0" r="23" fill="black"/>
+    
+    </mask>
+  </defs>
+
+  <!-- ============ LAYER 0: WIDE CELESTIAL ASTROLABE RING & ENGRAVING GLINTS ============ -->
+  <g id="astrolabe-bg" mask="url(#mask-bg)">
+    <circle cx="340.0" cy="158.0" r="104" class="ink-hair" opacity="0.58"/>
+    <circle cx="340.0" cy="158.0" r="96" class="ink-hair" stroke-dasharray="2.4 4.4" opacity="0.45"/>
+    <g class="ink-hair" opacity="0.48">
+      <line x1="444.0" y1="158.0" x2="451.0" y2="158.0"/>
+      <line x1="442.4" y1="176.1" x2="445.9" y2="176.7"/>
+      <line x1="437.7" y1="193.6" x2="441.0" y2="194.8"/>
+      <line x1="430.1" y1="210.0" x2="436.1" y2="213.5"/>
+      <line x1="419.7" y1="224.8" x2="422.3" y2="227.1"/>
+      <line x1="406.8" y1="237.7" x2="409.1" y2="240.3"/>
+      <line x1="392.0" y1="248.1" x2="395.5" y2="254.1"/>
+      <line x1="375.6" y1="255.7" x2="376.8" y2="259.0"/>
+      <line x1="358.1" y1="260.4" x2="358.7" y2="263.9"/>
+      <line x1="340.0" y1="262.0" x2="340.0" y2="269.0"/>
+      <line x1="321.9" y1="260.4" x2="321.3" y2="263.9"/>
+      <line x1="304.4" y1="255.7" x2="303.2" y2="259.0"/>
+      <line x1="288.0" y1="248.1" x2="284.5" y2="254.1"/>
+      <line x1="273.2" y1="237.7" x2="270.9" y2="240.3"/>
+      <line x1="260.3" y1="224.8" x2="257.7" y2="227.1"/>
+      <line x1="249.9" y1="210.0" x2="243.9" y2="213.5"/>
+      <line x1="242.3" y1="193.6" x2="239.0" y2="194.8"/>
+      <line x1="237.6" y1="176.1" x2="234.1" y2="176.7"/>
+      <line x1="236.0" y1="158.0" x2="229.0" y2="158.0"/>
+      <line x1="237.6" y1="139.9" x2="234.1" y2="139.3"/>
+      <line x1="242.3" y1="122.4" x2="239.0" y2="121.2"/>
+      <line x1="249.9" y1="106.0" x2="243.9" y2="102.5"/>
+      <line x1="260.3" y1="91.2" x2="257.7" y2="88.9"/>
+      <line x1="273.2" y1="78.3" x2="270.9" y2="75.7"/>
+      <line x1="288.0" y1="67.9" x2="284.5" y2="61.9"/>
+      <line x1="304.4" y1="60.3" x2="303.2" y2="57.0"/>
+      <line x1="321.9" y1="55.6" x2="321.3" y2="52.1"/>
+      <line x1="340.0" y1="54.0" x2="340.0" y2="47.0"/>
+      <line x1="358.1" y1="55.6" x2="358.7" y2="52.1"/>
+      <line x1="375.6" y1="60.3" x2="376.8" y2="57.0"/>
+      <line x1="392.0" y1="67.9" x2="395.5" y2="61.9"/>
+      <line x1="406.8" y1="78.3" x2="409.1" y2="75.7"/>
+      <line x1="419.7" y1="91.2" x2="422.3" y2="88.9"/>
+      <line x1="430.1" y1="106.0" x2="436.1" y2="102.5"/>
+      <line x1="437.7" y1="122.4" x2="441.0" y2="121.2"/>
+      <line x1="442.4" y1="139.9" x2="445.9" y2="139.3"/>
+    </g>
+    <!-- Engraving starlight glints -->
+    <path class="accent-fill" d="M 190.00,68.60 L 191.25,72.75 L 195.40,74.00 L 191.25,75.25 L 190.00,79.40 L 188.75,75.25 L 184.60,74.00 L 188.75,72.75 Z" opacity="0.9"/>
+    <path class="ink-fill" d="M 152.00,180.20 L 152.90,183.10 L 155.80,184.00 L 152.90,184.90 L 152.00,187.80 L 151.10,184.90 L 148.20,184.00 L 151.10,183.10 Z" opacity="0.65"/>
+    <path class="accent-fill" d="M 496.00,74.80 L 497.20,78.80 L 501.20,80.00 L 497.20,81.20 L 496.00,85.20 L 494.80,81.20 L 490.80,80.00 L 494.80,78.80 Z" opacity="0.88"/>
+    <path class="ink-fill" d="M 504.00,194.00 L 504.95,197.05 L 508.00,198.00 L 504.95,198.95 L 504.00,202.00 L 503.05,198.95 L 500.00,198.00 L 503.05,197.05 Z" opacity="0.68"/>
+    <circle cx="218" cy="102" r="1.25" fill="#64748B" opacity="0.58"/>
+    <circle cx="476" cy="218" r="1.25" fill="#0284C7" opacity="0.72"/>
+  </g>
+
+  <!-- ============ LAYER 1: SLENDER SILK MASQUERADE TIE-RIBBONS (STREAMING LEFT) ============ -->
+  <g id="veil-ribbons" mask="url(#mask-bg)">
+    <path class="ink-shade" d="M 263,136 C 234,126 202,130 172,144 C 154,152 140,158 126,161 C 146,162 168,155 192,146 C 216,137 240,136 263,143 Z"/>
+    <path class="ink-heavy" d="M 263,136 C 234,126 202,130 172,144 C 154,152 140,158 126,161 C 146,162 168,155 192,146 C 216,137 240,136 263,143 Z"/>
+    <path class="ink-hair" d="M 250,136 C 218,131 186,140 154,154"/>
+
+    <path class="ink-shade" d="M 263,144 C 232,148 202,165 174,190 C 158,204 144,214 130,220 C 152,218 176,206 202,185 C 224,167 244,155 264,152 Z"/>
+    <path class="ink-heavy" d="M 263,144 C 232,148 202,165 174,190 C 158,204 144,214 130,220 C 152,218 176,206 202,185 C 224,167 244,155 264,152 Z"/>
+    <path class="ink-hair" d="M 248,151 C 218,162 190,183 158,208"/>
+
+    <!-- Gossamer floating silk threads -->
+    <path class="ink-hair" d="M 232,122 C 200,122 170,132 142,146"/>
+    <path class="ink-hair" d="M 236,184 C 206,204 178,220 148,230"/>
+    <path class="ink-hair" d="M 258,176 C 234,196 208,214 182,226"/>
+  </g>
+
+  <!-- ============ LAYER 2: REVEALED PHYSICS CALIBRATION RETICLE ============ -->
+  <g id="physics-reticle">
+    <g class="accent-fine" opacity="0.75">
+      <line x1="400.0" y1="143.0" x2="410.0" y2="143.0"/>
+      <line x1="391.8" y1="156.8" x2="396.0" y2="161.0"/>
+      <line x1="378.0" y1="165.0" x2="378.0" y2="175.0"/>
+      <line x1="364.2" y1="156.8" x2="360.0" y2="161.0"/>
+      <line x1="356.0" y1="143.0" x2="346.0" y2="143.0"/>
+      <line x1="364.2" y1="129.2" x2="360.0" y2="125.0"/>
+      <line x1="378.0" y1="121.0" x2="378.0" y2="111.0"/>
+      <line x1="391.8" y1="129.2" x2="396.0" y2="125.0"/>
+    </g>
+    <circle cx="378.0" cy="143.0" r="21.5" class="ink-med"/>
+    <circle cx="378.0" cy="143.0" r="17.2" class="ink-hair" stroke-dasharray="2.0 3.0"/>
+    <polygon points="378.0,126.5 394.5,143.0 378.0,159.5 361.5,143.0" class="accent-line"/>
+    <polygon points="378.00,134.00 385.79,138.50 385.79,147.50 378.00,152.00 370.21,147.50 370.21,138.50" class="ink-med"/>
+    <circle cx="378.0" cy="143.0" r="3.8" class="accent-fill"/>
+    <circle cx="378.0" cy="143.0" r="1.35" fill="#0B1320"/>
+    <line x1="352.0" y1="143.0" x2="365.5" y2="143.0" class="accent-fine" opacity="0.7"/>
+    <line x1="390.5" y1="143.0" x2="404.0" y2="143.0" class="accent-fine" opacity="0.7"/>
+  </g>
+
+  <!-- ============ LAYER 3: SCULPTED INTACT LEFT VENETIAN MASK ============ -->
+  <g id="mask-left">
+    <path class="ink-shade" d="M 347,64 C 318,62 291,73 276,94 C 264,111 261,134 265,158 C 269,184 281,210 300,231 C 311,243 323,250 334,251 L 339,224 L 329,200 L 342,175 L 332,148 L 345,116 L 337,91 Z"/>
+    <path class="ink-heavy" d="M 347,64 C 318,62 291,73 276,94 C 264,111 261,134 265,158 C 269,184 281,210 300,231 C 311,243 323,250 334,251 L 339,224 L 329,200 L 342,175 L 332,148 L 345,116 L 337,91 Z"/>
+
+    <!-- Tiny ornate ribbon-tie eyelet at left temple -->
+    <circle cx="265.5" cy="141" r="2.8" class="ink-med"/>
+    <circle cx="265.5" cy="141" r="1.0" class="accent-fill"/>
+
+    <!-- Aristocratic Venetian filigree scrollwork on forehead & temple -->
+    <path class="ink-med" d="M 339,73 C 321,73 304,81 292,94 C 285,102 281,109 279,116"/>
+    <path class="ink-fine" d="M 331,82 C 314,83 299,92 289,106"/>
+    <path class="ink-fine" d="M 284,104 C 290,97 299,96 304,102 C 306,107 302,112 296,112"/>
+    <path class="ink-fine" d="M 316,95 C 322,89 331,91 333,99"/>
+
+    <!-- Sculpted brow arch & Venetian almond eye aperture -->
+    <path class="ink-med" d="M 274,124 C 290,111 314,112 331,124"/>
+    <path class="ink-fine" d="M 277,138 C 291,124 312,125 325,140"/>
+    <path fill="#0B1320" d="M 280,141 C 292,130 311,131 323,143 C 311,152 292,152 280,141 Z"/>
+    <path class="ink-heavy" d="M 280,141 C 292,130 311,131 323,143 C 311,152 292,152 280,141 Z"/>
+    <path class="accent-line" d="M 291,141 C 298,137.5 307,137.5 314,141" opacity="0.82"/>
+
+    <!-- Sculpted nasal bridge, cheekbone filigree & serene engraved lips -->
+    <path class="ink-med" d="M 334,124 C 329,142 325,160 326,174 C 327,179 331,181 337,180"/>
+    <path class="ink-fine" d="M 269,158 C 280,165 296,168 313,164"/>
+    <path class="ink-fine" d="M 281,179 C 291,184 303,182 309,175 C 311,170 307,167 303,169"/>
+    <path class="ink-med" d="M 310,204 C 317,200 325,200 332,203"/>
+    <path class="ink-fine" d="M 313,208 C 320,212 326,212 333,209"/>
+
+    <!-- Engraving parallel shading on sculpted cheek & forehead -->
+    <g class="ink-hair" opacity="0.6">
+      <line x1="271.0" y1="172.0" x2="287.0" y2="176.0"/>
+      <line x1="273.0" y1="177.6" x2="288.8" y2="181.6"/>
+      <line x1="275.0" y1="183.2" x2="290.6" y2="187.2"/>
+      <line x1="277.0" y1="188.8" x2="292.4" y2="192.8"/>
+      <line x1="279.0" y1="194.4" x2="294.2" y2="198.4"/>
+      <line x1="281.0" y1="200.0" x2="296.0" y2="204.0"/>
+      <line x1="283.0" y1="205.6" x2="297.8" y2="209.6"/>
+      <line x1="285.0" y1="211.2" x2="299.6" y2="215.2"/>
+      <line x1="282.0" y1="96.0" x2="294.0" y2="91.0"/>
+      <line x1="284.0" y1="99.4" x2="296.0" y2="94.4"/>
+      <line x1="286.0" y1="102.8" x2="298.0" y2="97.8"/>
+      <line x1="288.0" y1="106.2" x2="300.0" y2="101.2"/>
+      <line x1="290.0" y1="109.6" x2="302.0" y2="104.6"/>
+    </g>
+
+    <!-- Razor-clean glowing icy-cyan fissure edge -->
+    <path class="accent-heavy" d="M 347,64 L 337,91 L 345,116 L 332,148 L 342,175 L 329,200 L 339,224 L 334,251"/>
+  </g>
+
+  <!-- ============ LAYER 4: SHATTERING RIGHT-SIDE PORCELAIN SHARDS ============ -->
+  <g id="mask-shards">
+    <path class="ink-shade" d="M 357,66 C 382,69 402,82 414,102 L 392,113 L 366,106 L 352,91 Z"/>
+    <path class="ink-heavy" d="M 357,66 C 382,69 402,82 414,102 L 392,113 L 366,106 L 352,91 Z"/>
+    <path class="ink-fine" d="M 366,76 C 382,79 396,87 406,99"/>
+    <path class="accent-fine" d="M 357,66 L 352,91 L 366,106"/>
+
+    <path class="ink-shade" d="M 419,110 C 427,127 429,146 425,165 L 404,158 L 403,129 Z"/>
+    <path class="ink-heavy" d="M 419,110 C 427,127 429,146 425,165 L 404,158 L 403,129 Z"/>
+    <path class="ink-hair" d="M 412,122 L 421,126 M 411,131 L 423,135 M 410,140 L 424,144 M 409,149 L 422,153"/>
+
+    <path class="ink-shade" d="M 422,176 C 415,198 403,218 386,233 L 372,211 L 391,185 Z"/>
+    <path class="ink-heavy" d="M 422,176 C 415,198 403,218 386,233 L 372,211 L 391,185 Z"/>
+    <path class="ink-fine" d="M 410,186 C 403,200 394,212 382,222"/>
+    <path class="accent-fine" d="M 391,185 L 372,211"/>
+
+    <path class="ink-shade" d="M 378,239 C 366,247 355,251 344,252 L 350,226 L 367,221 Z"/>
+    <path class="ink-heavy" d="M 378,239 C 366,247 355,251 344,252 L 350,226 L 367,221 Z"/>
+    <path class="ink-fine" d="M 371,233 C 363,240 355,243 348,243"/>
+    <path class="accent-fine" d="M 350,226 L 344,252"/>
+
+    <!-- Drifting outer porcelain & crystal fragments -->
+    <path class="ink-shade" d="M 435,112 L 456,102 L 450,124 L 432,127 Z"/>
+    <path class="ink-med" d="M 435,112 L 456,102 L 450,124 L 432,127 Z"/>
+    <path class="ink-shade" d="M 434,167 L 458,160 L 448,181 L 430,179 Z"/>
+    <path class="ink-med" d="M 434,167 L 458,160 L 448,181 L 430,179 Z"/>
+    <path class="accent-line" d="M 414,225 L 432,223 L 424,239 Z"/>
+    <path class="accent-fine" d="M 465,134 L 478,129 L 472,143 Z"/>
+
+    <!-- Subtle kinetic fracture motion lines -->
+    <path class="accent-fine" d="M 421,124 L 431,120" opacity="0.65"/>
+    <path class="accent-fine" d="M 420,173 L 430,171" opacity="0.65"/>
+    <path class="ink-hair" d="M 396,219 L 411,226" opacity="0.65"/>
+  </g>
+
+  <!-- ============ LAYER 5: TOP IMPACT STAR-FLARE & HERALDIC BASE VIGNETTE ============ -->
+  <g id="prism-accents">
+    <path class="accent-fill" d="M 352.00,46.50 L 353.50,52.50 L 359.50,54.00 L 353.50,55.50 L 352.00,61.50 L 350.50,55.50 L 344.50,54.00 L 350.50,52.50 Z" opacity="0.92"/>
+    <line x1="352" y1="36" x2="352" y2="45" class="accent-fine" opacity="0.7"/>
+    <path class="ink-med" d="M 294,269 C 322,276 358,276 386,269"/>
+    <path class="accent-fill" d="M 340,272 L 343.2,275.2 L 340,278.4 L 336.8,275.2 Z"/>
+  </g>
+
+  <!-- ============ LAYER 6: EDITORIAL SERIF WORDMARK & SUBTITLE ============ -->
+  
+
+  
+</svg>

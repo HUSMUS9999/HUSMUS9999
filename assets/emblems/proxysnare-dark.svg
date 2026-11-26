@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="496" height="270" viewBox="92 26 496 270" role="img" aria-label="ProxySnare — HTTP Repeater and Intercepting Proxy Defense">
+  <defs>
+    <style>
+      .ink-heavy { fill: none; stroke: #E6EDF3; stroke-width: 2.08; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-med   { fill: none; stroke: #E6EDF3; stroke-width: 1.38; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fine  { fill: none; stroke: #9FB3C8; stroke-width: 0.9; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-hair  { fill: none; stroke: #6E8299; stroke-width: 0.65; stroke-linecap: round; stroke-linejoin: round; }
+      .ink-fill  { fill: #E6EDF3; stroke: none; }
+      .ink-mid-fill { fill: #9FB3C8; stroke: none; }
+      .ink-shade { fill: #E6EDF3; fill-opacity: 0.09; stroke: none; }
+      .accent-heavy { fill: none; stroke: #38BDF8; stroke-width: 1.85; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-line  { fill: none; stroke: #38BDF8; stroke-width: 1.35; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-fine  { fill: none; stroke: #38BDF8; stroke-width: 0.85; stroke-linecap: round; stroke-linejoin: round; }
+      .accent-fill  { fill: #38BDF8; stroke: none; }
+    
+      @keyframes psFlow {
+        0% { stroke-dashoffset: 56; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes psPulse {
+        0%, 100% { opacity: 0.68; }
+        50% { opacity: 1; }
+      }
+      @keyframes psPinFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-2.6px); }
+      }
+      @keyframes psProngClamp {
+        0%, 100% { opacity: 0.88; }
+        50% { opacity: 1; }
+      }
+      .accent-line, .accent-heavy { stroke-dasharray: 24 6; animation: psFlow 3.8s linear infinite, psPulse 3.4s ease-in-out infinite; }
+      .accent-fine, .accent-fill { animation: psPulse 2.9s ease-in-out infinite; }
+      #signal-ribbons .accent-line { stroke-dasharray: 18 8; animation: psFlow 2.8s linear infinite; }
+      #canary-pin { animation: psPinFloat 3.6s ease-in-out infinite; }
+      #snare-prongs { animation: psProngClamp 3.2s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .accent-line, .accent-heavy, .accent-fine, .accent-fill, #canary-pin, #snare-prongs { animation: none; stroke-dasharray: none; }
+      }
+    
+    </style>
+
+    <mask id="mask-bg" maskUnits="userSpaceOnUse" x="0" y="0" width="680" height="390">
+      <rect x="0" y="0" width="680" height="390" fill="white"/>
+      
+      <path d="M 326,70 C 282,76 250,113 250,156 C 250,185 264,212 288,229 L 304,209 C 286,197 276,178 276,156 C 276,125 297,99 326,93 L 334,82 Z" fill="black" stroke="black" stroke-width="2.2"/>
+      <path d="M 354,242 C 398,236 430,199 430,156 C 430,127 416,100 392,83 L 376,103 C 394,115 404,134 404,156 C 404,187 383,213 354,219 L 346,230 Z" fill="black" stroke="black" stroke-width="2.2"/>
+      <path d="M 290.44,115.20 L 298.59,122.73 L 305.60,131.91 L 294.58,128.47 L 284.71,123.39 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 284.71,188.61 L 294.58,183.53 L 305.60,180.09 L 298.59,189.27 L 290.44,196.80 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 395.29,123.39 L 385.42,128.47 L 374.40,131.91 L 381.41,122.73 L 389.56,115.20 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 389.56,196.80 L 381.41,189.27 L 374.40,180.09 L 385.42,183.53 L 395.29,188.61 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 340.0,44 L 346.0,64 L 343.0,140 L 352.2,156 L 343.0,172 L 344.6,244 L 340.0,264 L 335.4,244 L 337.0,172 L 327.8,156 L 337.0,140 L 334.0,64 Z" fill="black" stroke="black" stroke-width="2.4"/>
+      <circle cx="340.0" cy="156.0" r="41" fill="black"/>
+    
+    </mask>
+
+    <mask id="mask-jaws" maskUnits="userSpaceOnUse" x="0" y="0" width="680" height="390">
+      <rect x="0" y="0" width="680" height="390" fill="white"/>
+      
+      <path d="M 290.44,115.20 L 298.59,122.73 L 305.60,131.91 L 294.58,128.47 L 284.71,123.39 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 284.71,188.61 L 294.58,183.53 L 305.60,180.09 L 298.59,189.27 L 290.44,196.80 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 395.29,123.39 L 385.42,128.47 L 374.40,131.91 L 381.41,122.73 L 389.56,115.20 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 389.56,196.80 L 381.41,189.27 L 374.40,180.09 L 385.42,183.53 L 395.29,188.61 Z" fill="black" stroke="black" stroke-width="2.0"/>
+      <path d="M 340.0,44 L 346.0,64 L 343.0,140 L 352.2,156 L 343.0,172 L 344.6,244 L 340.0,264 L 335.4,244 L 337.0,172 L 327.8,156 L 337.0,140 L 334.0,64 Z" fill="black" stroke="black" stroke-width="2.6"/>
+    
+    </mask>
+
+    <mask id="mask-behind-pin" maskUnits="userSpaceOnUse" x="0" y="0" width="680" height="390">
+      <rect x="0" y="0" width="680" height="390" fill="white"/>
+      
+      <path d="M 340.0,44 L 346.0,64 L 343.0,140 L 352.2,156 L 343.0,172 L 344.6,244 L 340.0,264 L 335.4,244 L 337.0,172 L 327.8,156 L 337.0,140 L 334.0,64 Z" fill="black" stroke="black" stroke-width="2.6"/>
+    
+    </mask>
+  </defs>
+
+  <!-- ============ LAYER 0: OUTER CELESTIAL ASTROLABE RING & GLINTS ============ -->
+  <g id="astrolabe-bg" mask="url(#mask-bg)">
+    <circle cx="340.0" cy="156.0" r="102" class="ink-hair" opacity="0.58"/>
+    <circle cx="340.0" cy="156.0" r="94" class="ink-hair" stroke-dasharray="2.4 4.2" opacity="0.46"/>
+    <g class="ink-hair" opacity="0.5">
+      <line x1="442.0" y1="156.0" x2="449.0" y2="156.0"/>
+      <line x1="440.5" y1="173.7" x2="443.9" y2="174.3"/>
+      <line x1="435.8" y1="190.9" x2="439.1" y2="192.1"/>
+      <line x1="428.3" y1="207.0" x2="434.4" y2="210.5"/>
+      <line x1="418.1" y1="221.6" x2="420.8" y2="223.8"/>
+      <line x1="405.6" y1="234.1" x2="407.8" y2="236.8"/>
+      <line x1="391.0" y1="244.3" x2="394.5" y2="250.4"/>
+      <line x1="374.9" y1="251.8" x2="376.1" y2="255.1"/>
+      <line x1="357.7" y1="256.5" x2="358.3" y2="259.9"/>
+      <line x1="340.0" y1="258.0" x2="340.0" y2="265.0"/>
+      <line x1="322.3" y1="256.5" x2="321.7" y2="259.9"/>
+      <line x1="305.1" y1="251.8" x2="303.9" y2="255.1"/>
+      <line x1="289.0" y1="244.3" x2="285.5" y2="250.4"/>
+      <line x1="274.4" y1="234.1" x2="272.2" y2="236.8"/>
+      <line x1="261.9" y1="221.6" x2="259.2" y2="223.8"/>
+      <line x1="251.7" y1="207.0" x2="245.6" y2="210.5"/>
+      <line x1="244.2" y1="190.9" x2="240.9" y2="192.1"/>
+      <line x1="239.5" y1="173.7" x2="236.1" y2="174.3"/>
+      <line x1="238.0" y1="156.0" x2="231.0" y2="156.0"/>
+      <line x1="239.5" y1="138.3" x2="236.1" y2="137.7"/>
+      <line x1="244.2" y1="121.1" x2="240.9" y2="119.9"/>
+      <line x1="251.7" y1="105.0" x2="245.6" y2="101.5"/>
+      <line x1="261.9" y1="90.4" x2="259.2" y2="88.2"/>
+      <line x1="274.4" y1="77.9" x2="272.2" y2="75.2"/>
+      <line x1="289.0" y1="67.7" x2="285.5" y2="61.6"/>
+      <line x1="305.1" y1="60.2" x2="303.9" y2="56.9"/>
+      <line x1="322.3" y1="55.5" x2="321.7" y2="52.1"/>
+      <line x1="340.0" y1="54.0" x2="340.0" y2="47.0"/>
+      <line x1="357.7" y1="55.5" x2="358.3" y2="52.1"/>
+      <line x1="374.9" y1="60.2" x2="376.1" y2="56.9"/>
+      <line x1="391.0" y1="67.7" x2="394.5" y2="61.6"/>
+      <line x1="405.6" y1="77.9" x2="407.8" y2="75.2"/>
+      <line x1="418.1" y1="90.4" x2="420.8" y2="88.2"/>
+      <line x1="428.3" y1="105.0" x2="434.4" y2="101.5"/>
+      <line x1="435.8" y1="121.1" x2="439.1" y2="119.9"/>
+      <line x1="440.5" y1="138.3" x2="443.9" y2="137.7"/>
+    </g>
+    <path class="accent-fill" d="M 186.00,70.60 L 187.25,74.75 L 191.40,76.00 L 187.25,77.25 L 186.00,81.40 L 184.75,77.25 L 180.60,76.00 L 184.75,74.75 Z" opacity="0.9"/>
+    <path class="ink-fill" d="M 150.00,182.20 L 150.90,185.10 L 153.80,186.00 L 150.90,186.90 L 150.00,189.80 L 149.10,186.90 L 146.20,186.00 L 149.10,185.10 Z" opacity="0.65"/>
+    <path class="accent-fill" d="M 492.00,76.80 L 493.20,80.80 L 497.20,82.00 L 493.20,83.20 L 492.00,87.20 L 490.80,83.20 L 486.80,82.00 L 490.80,80.80 Z" opacity="0.88"/>
+    <path class="ink-fill" d="M 514.00,176.00 L 514.95,179.05 L 518.00,180.00 L 514.95,180.95 L 514.00,184.00 L 513.05,180.95 L 510.00,180.00 L 513.05,179.05 Z" opacity="0.68"/>
+    <circle cx="216" cy="102" r="1.25" fill="#6E8299" opacity="0.58"/>
+    <circle cx="486" cy="218" r="1.25" fill="#38BDF8" opacity="0.72"/>
+  </g>
+
+  <!-- ============ LAYER 1: SWEEPING SIGNAL RIBBONS (LEFT) & INTERCEPT STREAMS (RIGHT) ============ -->
+  <g id="signal-ribbons" mask="url(#mask-bg)">
+    <path class="ink-shade" d="M 250.5,144 C 222,130 190,132 160,145 C 142,152 128,158 116,161 C 138,162 162,155 188,146 C 212,138 232,141 249.8,151 Z"/>
+    <path class="ink-heavy" d="M 250.5,144 C 222,130 190,132 160,145 C 142,152 128,158 116,161 C 138,162 162,155 188,146 C 212,138 232,141 249.8,151 Z"/>
+    <path class="ink-hair" d="M 244,142 C 210,134 176,141 144,154"/>
+
+    <path class="ink-shade" d="M 249.8,157 C 224,167 194,183 166,204 C 150,216 136,224 124,229 C 148,227 174,216 200,196 C 221,180 237,170 251.5,165 Z"/>
+    <path class="ink-heavy" d="M 249.8,157 C 224,167 194,183 166,204 C 150,216 136,224 124,229 C 148,227 174,216 200,196 C 221,180 237,170 251.5,165 Z"/>
+    <path class="ink-hair" d="M 244,164 C 212,175 182,196 150,218"/>
+
+    <path class="ink-hair" d="M 226,122 C 194,123 164,132 136,146"/>
+    <path class="ink-hair" d="M 232,190 C 204,208 176,224 146,234"/>
+
+    <!-- Right-side broken/trapped packet trajectories -->
+    <path class="ink-med" d="M 431,146 C 455,142 479,134 504,120"/>
+    <path class="accent-line" d="M 432,156 L 494,156" stroke-dasharray="5 4"/>
+    <path class="ink-med" d="M 431,166 C 455,174 477,184 498,198"/>
+    <path class="accent-fill" d="M 504,116 L 508,120 L 504,124 L 500,120 Z"/>
+    <path class="ink-med" d="M 500,152 L 506,156 L 500,160 L 494,156 Z"/>
+    <path class="accent-fill" d="M 498,194 L 502,198 L 498,202 L 494,198 Z"/>
+    <circle cx="468" cy="136" r="1.8" class="ink-fill"/>
+    <circle cx="466" cy="178" r="1.8" class="ink-fill"/>
+  </g>
+
+  <!-- ============ LAYER 2: INTERLOCKING ENGRAVED SNARE JAWS ============ -->
+  <g id="snare-jaws" mask="url(#mask-jaws)">
+    <path class="ink-shade" d="M 326,70 C 282,76 250,113 250,156 C 250,185 264,212 288,229 L 304,209 C 286,197 276,178 276,156 C 276,125 297,99 326,93 L 334,82 Z"/>
+    <path class="ink-heavy" d="M 326,70 C 282,76 250,113 250,156 C 250,185 264,212 288,229 L 304,209 C 286,197 276,178 276,156 C 276,125 297,99 326,93 L 334,82 Z"/>
+    <path class="ink-fine" d="M 324,79 C 287,85 260,118 260,156 C 260,181 272,204 292,218"/>
+
+    <path class="ink-shade" d="M 354,242 C 398,236 430,199 430,156 C 430,127 416,100 392,83 L 376,103 C 394,115 404,134 404,156 C 404,187 383,213 354,219 L 346,230 Z"/>
+    <path class="ink-heavy" d="M 354,242 C 398,236 430,199 430,156 C 430,127 416,100 392,83 L 376,103 C 394,115 404,134 404,156 C 404,187 383,213 354,219 L 346,230 Z"/>
+    <path class="ink-fine" d="M 356,233 C 393,227 420,194 420,156 C 420,131 408,108 388,94"/>
+
+    <g class="ink-hair" opacity="0.6">
+      <line x1="275.3" y1="214.2" x2="281.3" y2="208.9"/>
+      <line x1="267.0" y1="203.4" x2="273.7" y2="199.0"/>
+      <line x1="260.5" y1="191.4" x2="267.8" y2="188.1"/>
+      <line x1="256.0" y1="178.5" x2="263.7" y2="176.4"/>
+      <line x1="253.5" y1="165.1" x2="261.4" y2="164.3"/>
+      <line x1="253.1" y1="151.4" x2="261.1" y2="151.9"/>
+      <line x1="254.9" y1="137.9" x2="262.7" y2="139.6"/>
+      <line x1="258.8" y1="124.8" x2="266.2" y2="127.7"/>
+      <line x1="264.7" y1="112.5" x2="271.6" y2="116.5"/>
+      <line x1="272.4" y1="101.2" x2="278.6" y2="106.3"/>
+      <line x1="404.7" y1="97.8" x2="398.7" y2="103.1"/>
+      <line x1="413.0" y1="108.6" x2="406.3" y2="113.0"/>
+      <line x1="419.5" y1="120.6" x2="412.2" y2="123.9"/>
+      <line x1="424.0" y1="133.5" x2="416.3" y2="135.6"/>
+      <line x1="426.5" y1="146.9" x2="418.6" y2="147.7"/>
+      <line x1="426.9" y1="160.6" x2="418.9" y2="160.1"/>
+      <line x1="425.1" y1="174.1" x2="417.3" y2="172.4"/>
+      <line x1="421.2" y1="187.2" x2="413.8" y2="184.3"/>
+      <line x1="415.3" y1="199.5" x2="408.4" y2="195.5"/>
+      <line x1="407.6" y1="210.8" x2="401.4" y2="205.7"/>
+    </g>
+
+    <!-- Precision hinge rivets -->
+    <circle cx="264" cy="156" r="3.4" class="ink-med"/>
+    <circle cx="264" cy="156" r="1.2" class="accent-fill"/>
+    <circle cx="416" cy="156" r="3.4" class="ink-med"/>
+    <circle cx="416" cy="156" r="1.2" class="accent-fill"/>
+  </g>
+
+  <!-- ============ LAYER 2B: 4 TAPERED GOTHIC SNARE PRONGS (ZERO BLEED!) ============ -->
+  <g id="snare-prongs">
+    <path class="ink-shade" d="M 290.44,115.20 L 298.59,122.73 L 305.60,131.91 L 294.58,128.47 L 284.71,123.39 Z"/><path class="ink-heavy" d="M 290.44,115.20 L 298.59,122.73 L 305.60,131.91 L 294.58,128.47 L 284.71,123.39 Z"/><path class="ink-hair" d="M 287.98,119.58 L 305.60,131.91"/>
+    <path class="ink-shade" d="M 284.71,188.61 L 294.58,183.53 L 305.60,180.09 L 298.59,189.27 L 290.44,196.80 Z"/><path class="ink-heavy" d="M 284.71,188.61 L 294.58,183.53 L 305.60,180.09 L 298.59,189.27 L 290.44,196.80 Z"/><path class="ink-hair" d="M 287.98,192.42 L 305.60,180.09"/>
+    <path class="ink-shade" d="M 395.29,123.39 L 385.42,128.47 L 374.40,131.91 L 381.41,122.73 L 389.56,115.20 Z"/><path class="ink-heavy" d="M 395.29,123.39 L 385.42,128.47 L 374.40,131.91 L 381.41,122.73 L 389.56,115.20 Z"/><path class="ink-hair" d="M 392.02,119.58 L 374.40,131.91"/>
+    <path class="ink-shade" d="M 389.56,196.80 L 381.41,189.27 L 374.40,180.09 L 385.42,183.53 L 395.29,188.61 Z"/><path class="ink-heavy" d="M 389.56,196.80 L 381.41,189.27 L 374.40,180.09 L 385.42,183.53 L 395.29,188.61 Z"/><path class="ink-hair" d="M 392.02,192.42 L 374.40,180.09"/>
+  </g>
+
+  <!-- ============ LAYER 3: TRAPPED CENTRAL HTTP REPLAY-LOOP ARROWS ============ -->
+  <g id="trapped-replay-loop" mask="url(#mask-behind-pin)">
+    <circle cx="340.0" cy="156.0" r="40" class="ink-hair" stroke-dasharray="2.2 3.2" opacity="0.82"/>
+    <path class="accent-heavy" d="M 313.34,140.50 A 31.0,31.0 0 0,1 366.66,140.50"/>
+    <path class="accent-heavy" d="M 368.5,134.0 L 366.6,141.8 L 358.8,139.6"/>
+    <path class="accent-heavy" d="M 366.66,171.50 A 31.0,31.0 0 0,1 313.34,171.50"/>
+    <path class="accent-heavy" d="M 311.5,178.0 L 313.4,170.2 L 321.2,172.4"/>
+    <circle cx="340.0" cy="156.0" r="21" class="ink-fine" opacity="0.72"/>
+  </g>
+
+  <!-- ============ LAYER 4: VERTICAL CRYSTALLINE HMAC CANARY PIN ============ -->
+  <g id="canary-pin">
+    <path class="ink-med" d="M 334.5,72 L 328.0,74 L 335.0,77"/><path class="ink-med" d="M 345.5,72 L 352.0,74 L 345.0,77"/><path class="ink-med" d="M 335.8,234 L 330.0,236 L 335.5,239"/><path class="ink-med" d="M 344.2,234 L 350.0,236 L 344.5,239"/>
+    <path class="ink-heavy" d="M 340.0,44 L 346.0,64 L 343.0,140 L 352.2,156 L 343.0,172 L 344.6,244 L 340.0,264 L 335.4,244 L 337.0,172 L 327.8,156 L 337.0,140 L 334.0,64 Z"/>
+    <path class="ink-shade" d="M 340.0,44 L 346.0,64 L 343.0,140 L 352.2,156 L 343.0,172 L 344.6,244 L 340.0,264 Z"/>
+    <line x1="340.0" y1="48" x2="340.0" y2="260" class="ink-fine" opacity="0.85"/>
+    <path class="ink-heavy" d="M 340.0,144.2 L 349.2,156.0 L 340.0,167.8 L 330.8,156.0 Z"/>
+    <path class="accent-fill" d="M 340.0,149.2 L 345.4,156.0 L 340.0,162.8 L 334.6,156.0 Z"/>
+    <circle cx="340.0" cy="156.0" r="1.6" fill="#05090F"/>
+    <path class="accent-fill" d="M 340.00,32.00 L 341.30,36.70 L 346.00,38.00 L 341.30,39.30 L 340.00,44.00 L 338.70,39.30 L 334.00,38.00 L 338.70,36.70 Z" opacity="0.92"/>
+  </g>
+
+  <!-- ============ LAYER 5: HERALDIC BASE VIGNETTE ============ -->
+  <g id="base-vignette">
+    <path class="ink-med" d="M 294,272 C 322,279 358,279 386,272"/>
+    <path class="accent-fill" d="M 340,275 L 343.2,278.2 L 340,281.4 L 336.8,278.2 Z"/>
+  </g>
+
+  <!-- ============ LAYER 6: EDITORIAL SERIF WORDMARK & SUBTITLE ============ -->
+  
+
+  
+</svg>
