@@ -66,7 +66,7 @@ Signature checks and polite-client assumptions break quickly once someone opens 
   <tr>
     <td width="50%" valign="top">
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/vibe-slayer">
+        <a href="https://github.com/HusX99/vibe-slayer">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="assets/emblems/vibeslayer-dark.svg" />
             <source media="(prefers-color-scheme: light)" srcset="assets/emblems/vibeslayer-light.svg" />
@@ -75,13 +75,13 @@ Signature checks and polite-client assumptions break quickly once someone opens 
         </a>
       </p>
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/vibe-slayer"><strong>vibe-slayer</strong></a> &nbsp;·&nbsp; <samp>Rust / C99</samp>
+        <a href="https://github.com/HusX99/vibe-slayer"><strong>vibe-slayer</strong></a> &nbsp;·&nbsp; <samp>Rust / C99</samp>
       </p>
       <p>Seals and delivers Linux <code>ELF64</code> binaries and static assets so payloads stay encrypted on disk. Pairs static-PIE Intel CET binaries with ephemeral AES-256-GCM / ECDH P-256 leases and headerless ChaCha20-Poly1305 vaults.</p>
     </td>
     <td width="50%" valign="top">
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/proxysnare">
+        <a href="https://github.com/HusX99/proxysnare">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="assets/emblems/proxysnare-dark.svg" />
             <source media="(prefers-color-scheme: light)" srcset="assets/emblems/proxysnare-light.svg" />
@@ -90,7 +90,7 @@ Signature checks and polite-client assumptions break quickly once someone opens 
         </a>
       </p>
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/proxysnare"><strong>proxysnare</strong></a> &nbsp;·&nbsp; <samp>JS / Python</samp>
+        <a href="https://github.com/HusX99/proxysnare"><strong>proxysnare</strong></a> &nbsp;·&nbsp; <samp>JS / Python</samp>
       </p>
       <p>Breaks out-of-band Burp and Caido Repeater tampering and naive MitM replay without shipping static client secrets. Requests bind to non-extractable WebCrypto keys, single-use HMAC-SHA256 freshness proofs, and rotating decoy canaries.</p>
     </td>
@@ -98,7 +98,7 @@ Signature checks and polite-client assumptions break quickly once someone opens 
   <tr>
     <td width="50%" valign="top">
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/veilbreak">
+        <a href="https://github.com/HusX99/veilbreak">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="assets/emblems/veilbreak-dark.svg" />
             <source media="(prefers-color-scheme: light)" srcset="assets/emblems/veilbreak-light.svg" />
@@ -107,13 +107,13 @@ Signature checks and polite-client assumptions break quickly once someone opens 
         </a>
       </p>
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/veilbreak"><strong>veilbreak</strong></a> &nbsp;·&nbsp; <samp>JS / Python</samp>
+        <a href="https://github.com/HusX99/veilbreak"><strong>veilbreak</strong></a> &nbsp;·&nbsp; <samp>JS / Python</samp>
       </p>
       <p>Detects headless and stealth-patched browsers where spoofing leaks across execution boundaries. Verifies 14 Chromium/Gecko runtime checks, <code>iframe</code> and Web Worker coherence, input timing, and single-use server tickets.</p>
     </td>
     <td width="50%" valign="top">
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/crushgrid">
+        <a href="https://github.com/HusX99/crushgrid">
           <picture>
             <source media="(prefers-color-scheme: dark)" srcset="assets/emblems/crushgrid-dark.svg" />
             <source media="(prefers-color-scheme: light)" srcset="assets/emblems/crushgrid-light.svg" />
@@ -122,7 +122,7 @@ Signature checks and polite-client assumptions break quickly once someone opens 
         </a>
       </p>
       <p align="center">
-        <a href="https://github.com/HUSMUS9999/crushgrid"><strong>crushgrid</strong></a> &nbsp;·&nbsp; <samp>Rust</samp>
+        <a href="https://github.com/HusX99/crushgrid"><strong>crushgrid</strong></a> &nbsp;·&nbsp; <samp>Rust</samp>
       </p>
       <p>Multi-codec archiver built for mixed binary and text corpora where any single compressor leaves ratio on the table. Routes slabs across Zstd, Bzip3, LZMA2 (+BCJ), PPMd7, and LZ4 with BLAKE3 deduplication and AES-256-GCM cluster framing.</p>
     </td>
